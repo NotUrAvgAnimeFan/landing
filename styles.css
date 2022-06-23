@@ -94,6 +94,47 @@ body {
     
 }
 
+.statement-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statement-text {
+    max-width: 40%;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 100px;
+}
+
+.author {
+    margin-top: -50px;
+    align-self:flex-end;
+    margin-right: 30%;
+    margin-bottom: 100px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.call {
+    width: 60%;
+    height: 120px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 30%
+}
+
+
+
 ul {
     display: flex;
     gap: 20px;
