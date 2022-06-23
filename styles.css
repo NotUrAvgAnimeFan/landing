@@ -133,6 +133,17 @@ body {
     gap: 30%
 }
 
+.call-left {
+    color: white;
+    padding: 0 20px;
+}
+
+.call-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 
 ul {
