@@ -123,28 +123,56 @@ body {
 }
 
 .call {
-    width: 60%;
-    height: 120px;
+    width: 75%;
     background-color: #3882F6;
     border-radius: 12px;
     border: none;
     display: flex;
-    justify-content: center;
-    gap: 30%
+    justify-content: space-evenly;
+    padding: 3%;
+    gap: 20%;
 }
 
 .call-left {
     color: white;
-    padding: 0 20px;
+    padding: 0;
+}
+
+.call-left h3 {
+    font-size: 36px;
+}
+
+.call-left p {
+    color:#E5E7EB;
+    font-size: 26px;
 }
 
 .call-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
+.call-right button {
+    width: 300px;
+    height: 50px;
+    background-color: #3882F6;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    border-radius: 6px;
+    font-size: 36px;
+}
 
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+    font-size: 20px;
+}
 
 ul {
     display: flex;
